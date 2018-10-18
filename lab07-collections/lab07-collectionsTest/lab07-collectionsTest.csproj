@@ -5,6 +5,8 @@
     <RootNamespace>lab07_collectionsTest</RootNamespace>
 
     <IsPackable>false</IsPackable>
+
+    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
