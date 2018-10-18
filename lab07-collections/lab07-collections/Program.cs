@@ -8,7 +8,7 @@ namespace lab07_collections
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("=====Your current hand=====");
+            Console.WriteLine("=====Your Current Hand=====");
             Console.WriteLine();
 
             Cards card1 = new Cards() { Suit = Suit.Hearts, Value = Value.Ace };

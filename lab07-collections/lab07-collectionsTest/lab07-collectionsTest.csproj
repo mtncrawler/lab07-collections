@@ -15,4 +15,8 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\lab07-collections\lab07-collections.csproj" />
+  </ItemGroup>
+
 </Project>

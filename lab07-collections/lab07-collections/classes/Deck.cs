@@ -8,7 +8,7 @@ namespace lab07_collections.classes
     public class Deck<T> : IEnumerable
     {
         T[] cards = new T[5];
-        int count = 0;
+        public int count = 0;
 
         /// <summary>
         /// add a card to the deck
