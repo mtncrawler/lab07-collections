@@ -8,7 +8,8 @@ namespace lab07_collections
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("=====Your current hand=====");
+            Console.WriteLine();
 
             Cards card1 = new Cards() { Suit = Suit.Hearts, Value = Value.Ace };
             Cards card2 = new Cards() { Suit = Suit.Diamonds, Value = Value.Jack };
@@ -27,17 +28,22 @@ namespace lab07_collections
             };
 
             PrintDeck(myDeck);
-            Console.WriteLine("====ADD======");
+            Console.WriteLine();
+
+            Console.WriteLine("=====ADD Two of Spades=====");
+            Console.WriteLine();
 
             Cards card11 = new Cards() { Suit = Suit.Spades, Value = Value.Two };
             myDeck.Add(card11);
             PrintDeck(myDeck);
+            Console.WriteLine();
 
-            Console.WriteLine("====REMOVE======");
+            Console.WriteLine("=====REMOVE Queen of Hearts=====");
             myDeck.Remove(card10);
             PrintDeck(myDeck);
+            Console.WriteLine();
 
-            Console.WriteLine("====SUITS======");
+            Console.WriteLine("=====SUITS Clubs======");
             PrintDeck(myDeck.ReturnSuit(Suit.Clubs));
         }
 
