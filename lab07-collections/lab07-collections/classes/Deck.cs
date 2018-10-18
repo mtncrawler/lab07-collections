@@ -53,7 +53,7 @@ namespace lab07_collections.classes
             {
                 Cards card = (Cards)Convert.ChangeType(cards[i], typeof(Cards));
 
-                if (card.Suit == suit)
+                if (card != null && card.Suit == suit)
                 {
                     deck.Add(card);
                 }
